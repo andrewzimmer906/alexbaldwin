@@ -166,28 +166,3 @@ px      68    160    252    344    436    */
 	}
 	
 }
-
-/*
-Supersized - Fullscreen Slideshow jQuery Plugin Stylesheet Version 3.0
-By Sam Dunn (www.buildinternet.com // www.onemightyroar.com)
-Version: supersized.3.0.js
-Website: www.buildinternet.com/project/supersized
-*/
-
-	/*Area to place content normally*/
-	#wrapper{  
-		position:absolute; 
-		top:0;  
-		z-index:4; 
-	}
-
-	#supersized{
-	    position:fixed;
-	}
-	#supersized img{ -ms-interpolation-mode: bicubic; }
-	#supersized img, #supersized a{
-	    height:100%;
-	    width:100%;
-	    position:absolute;
-	    z-index: -1;
-	}

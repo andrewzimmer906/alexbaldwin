@@ -16,26 +16,17 @@
 		<script type="text/javascript" src="javascripts/supersized.3.0.core.js"></script>
 		<script type="text/javascript" src="javascripts/modernizr-1.6.min.js"></script>
 		
-		<script type="text/javascript">  
-  		$(function(){
-  			$.fn.supersized.options = {  
-  			  startwidth: 4,  
-  				startheight: 3,
-  				vertical_center : 0,
-          horizontal_center : 0,
-  				slides : [
-  					{image : 'images/alexbaldwin.jpg' }
-  				]
-  			};
-  	        $('#supersized').supersized(); 
-  	    });
-  	</script>
+		<script type="text/javascript" src="/jquery.backstretch.min.js"></script>
+    <script type="text/javascript">
+      $.backstretch("/images/alexbaldwin.jpg", {speed: 150});
+    </script>
+    
 		
 		<script type="text/javascript" src="http://use.typekit.com/fbv1rsb.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	</head>
 
-	<body>
+<body>
 <section id="wrapper">
 <section id="content">
       
@@ -55,8 +46,7 @@
 		
 </section>
 </section>
-		
-<div id="supersized"></div>
-	</body>
+
+</body>
 	
 </html>
