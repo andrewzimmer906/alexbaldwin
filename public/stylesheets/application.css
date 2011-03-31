@@ -75,6 +75,10 @@ h1, p{
 	margin-bottom: .5em;
 }
 
+p{
+	color:#efefef;
+}
+
 /* Selection colours (easy to forget) */
 
 ::selection 	 	{background: rgb(255,255,158);}
@@ -108,11 +112,11 @@ a{
 	font-weight:bold;
 	text-decoration:none;
 	color:#fff;
-	border-bottom:2px solid rgba(255,255,255,.5);
+	border-bottom:2px solid rgba(255,255,255,.3);
 }
 
 a:hover{
-	border-bottom:2px solid rgba(255,255,255,1);
+	border-bottom:2px solid rgba(255,255,255,.6);
 }
 
 /*		Tablet Layout: 768px.
