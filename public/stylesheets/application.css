@@ -63,7 +63,7 @@ a img {border: 0;}
 body {
 	font: 16px/24px;
 	font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2",serif;
-	text-shadow:0 1px 0 #000000;
+	text-shadow:1px 1px 0 #000000;
 }
 
 .small, small {
@@ -73,10 +73,6 @@ body {
 
 h1, p{
 	margin-bottom: .5em;
-}
-
-p{
-	color:#efefef;
 }
 
 /* Selection colours (easy to forget) */
@@ -97,9 +93,14 @@ body {-webkit-tap-highlight-color: rgb(255,255,158);}
 cols    1     2      3      4      5      6      7      8      9      10
 px      68    160    252    344    436    528    620    712    804    896    */
 
+html{
+overflow-y: scroll;
+}
+
 body {
 	background: rgb(232,232,232);
 	color: rgb(255,255,255);
+	-webkit-font-smoothing: antialiased;
 	-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
 }
 
