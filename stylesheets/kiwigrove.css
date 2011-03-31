@@ -99,7 +99,7 @@ body {
 	-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
 }
 
-#content {
+article {
 	width: 436px;
 	padding: 72px 48px 84px;
 }
@@ -125,7 +125,7 @@ px      68    160    252    344    436    528    620    712    */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	
-	#content {
+	article {
 		padding: 48px 28px 60px;
 	}
 }
@@ -142,7 +142,7 @@ px      68    160    252    */
 
 @media only screen and (max-width: 767px) {
 	
-	#content {
+	article {
 		width: 252px;
 		padding: 48px 34px 60px;
 	}
@@ -161,33 +161,8 @@ px      68    160    252    344    436    */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	
-	#content {
+	article {
 		padding: 36px 22px 48px;
 	}
 	
 }
-
-/*
-Supersized - Fullscreen Slideshow jQuery Plugin Stylesheet Version 3.0
-By Sam Dunn (www.buildinternet.com // www.onemightyroar.com)
-Version: supersized.3.0.js
-Website: www.buildinternet.com/project/supersized
-*/
-
-	/*Area to place content normally*/
-	#wrapper{  
-		position:absolute; 
-		top:0;  
-		z-index:4; 
-	}
-
-	#supersized{
-	    position:fixed;
-	}
-	#supersized img{ -ms-interpolation-mode: bicubic; }
-	#supersized img, #supersized a{
-	    height:100%;
-	    width:100%;
-	    position:absolute;
-	    z-index: -1;
-	}
