@@ -107,7 +107,7 @@ article {
 }
 
 .no-rgba article{
-	background: url("images/black.png") repeat;
+	background: #ddd;
 }
 
 .wf-active article {
