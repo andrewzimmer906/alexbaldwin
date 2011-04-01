@@ -98,8 +98,8 @@ overflow-y: scroll;
 }
 
 body {
-	background: rgb(232,232,232);
-	color: rgb(255,255,255);
+	background: #333;
+	color: #fff;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
 }
