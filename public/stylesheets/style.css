@@ -61,7 +61,6 @@ html {overflow-y: scroll;}
 body {
 	font: 16px/24px;
 	font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2",serif;
-	text-shadow:1px 1px 0 #000000;
 }
 
 .small, small {
@@ -71,16 +70,6 @@ body {
 
 h1, p{
 	margin-bottom: .5em;
-}
-
-article {
-	visibility: hidden;
-	background:rgba(0,0,0,.5);
-	height:100%;
-}
-
-.wf-active article{
-	visibility: visible;
 }
 
 /* Selection colours (easy to forget) */
@@ -112,6 +101,13 @@ body {
 article {
 	width: 436px;
 	padding: 72px 48px 84px;
+	visibility: hidden;
+	background:rgba(0,0,0,.5);
+	text-shadow:1px 1px 0 #000000;
+}
+
+.wf-active article{
+	visibility: visible;
 }
 
 a{
