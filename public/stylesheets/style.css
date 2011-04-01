@@ -66,6 +66,14 @@ body {
 	text-shadow:1px 1px 0 #000000;
 }
 
+h1, p {
+	visibility: hidden;
+}
+
+.wf-active h1, .wf-active p {
+	visibility: visible;
+}
+
 .small, small {
 	font-size: 13px;
 	line-height: 18px;
