@@ -106,6 +106,10 @@ article {
 	text-shadow:1px 1px 0 #000000;
 }
 
+.no-rgba article{
+	background: url("images/black.png") repeat;
+}
+
 .wf-active article {
 	visibility: visible;
 }
