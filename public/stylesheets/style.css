@@ -119,6 +119,10 @@ a{
 	text-decoration:none;
 	color:#fff;
 	border-bottom:2px solid rgba(255,255,255,.3);
+	-webkit-transition: all .33s ease;
+	-moz-transition: all .33s ease;
+	-o-transition: all .33s ease;
+	transition: all .33s ease;
 }
 
 a:hover{
@@ -136,10 +140,16 @@ section ul li{
 section ul li img{
 	opacity:.6;
 	margin:12px 12px 0 0;
+	-webkit-transition: all .33s ease;
+	-moz-transition: all .33s ease;
+	-o-transition: all .33s ease;
+	transition: all .33s ease;
 }
 
 section ul li img:hover{
 	opacity:.9;
+	-webkit-transform: rotate(25deg);
+	-moz-transform: rotate(25deg);
 }
 
 hr{
