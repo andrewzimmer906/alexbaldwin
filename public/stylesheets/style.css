@@ -3,7 +3,6 @@
 	by Joni Korpi
 	License: http://creativecommons.org/licenses/MIT/	*/
 
-
 /*	Resets
 	------	*/
 
@@ -25,8 +24,7 @@ footer, header, nav, section, audio, video {
 }
 
 a img {border: 0;}
-
-
+html {overflow-y: scroll;}
 
 /*	Typography presets
 	------------------	*/
@@ -66,14 +64,6 @@ body {
 	text-shadow:1px 1px 0 #000000;
 }
 
-h1, p {
-	visibility: hidden;
-}
-
-.wf-active h1, .wf-active p {
-	visibility: visible;
-}
-
 .small, small {
 	font-size: 13px;
 	line-height: 18px;
@@ -83,13 +73,23 @@ h1, p{
 	margin-bottom: .5em;
 }
 
+article {
+	visibility: hidden;
+	background:rgba(0,0,0,.5);
+	height:100%;
+}
+
+.wf-active article{
+	visibility: visible;
+}
+
 /* Selection colours (easy to forget) */
 
-::selection 	 	{background: rgb(255,255,158);}
-::-moz-selection 	{background: rgb(255,255,158);}
+::selection 	 	{background: rgb(0,255,0);}
+::-moz-selection 	{background: rgb(0,255,0);}
 img::selection 		{background: transparent;}
 img::-moz-selection	{background: transparent;}
-body {-webkit-tap-highlight-color: rgb(255,255,158);}
+body {-webkit-tap-highlight-color: rgb(0,255,0);}
 
 
 
@@ -101,15 +101,12 @@ body {-webkit-tap-highlight-color: rgb(255,255,158);}
 cols    1     2      3      4      5      6      7      8      9      10
 px      68    160    252    344    436    528    620    712    804    896    */
 
-html{
-overflow-y: scroll;
-}
-
 body {
 	background: #333;
 	color: #fff;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
+	padding: 72px 48px 84px;
 }
 
 article {
@@ -128,6 +125,27 @@ a:hover{
 	border-bottom:2px solid rgba(255,255,255,.6);
 }
 
+section ul{
+	list-style-type:none;
+}
+
+section ul li{
+	float:left;
+}
+
+section ul li img{
+	opacity:.6;
+	margin:12px 12px 0 0;
+}
+
+section ul li img:hover{
+	opacity:.9;
+}
+
+hr{
+	clear:both;
+}
+
 /*		Tablet Layout: 768px.
 		Gutters: 24px.
 		Outer margins: 28px.
@@ -137,6 +155,10 @@ cols    1     2      3      4      5      6      7      8
 px      68    160    252    344    436    528    620    712    */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	body{
+		padding: 48px 28px 60px;
+	}
 	
 	article {
 		padding: 48px 28px 60px;
@@ -152,6 +174,10 @@ cols    1     2      3
 px      68    160    252    */
 
 @media only screen and (max-width: 767px) {
+
+	body{
+		padding: 0;
+	}
 	
 	article {
 		width: 252px;
