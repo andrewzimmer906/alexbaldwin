@@ -191,6 +191,6 @@ px      68    160    252    */
 	}
 	
 	#hellobar-wrapper {
-		display:none;
+		visibility: hidden;
 	}
 }
