@@ -1,7 +1,8 @@
 /*	Less Framework 4
 	http://lessframework.com
 	by Joni Korpi
-	License: http://creativecommons.org/licenses/MIT/	*/
+	License: http://opensource.org/licenses/mit-license.php	*/
+
 
 /*	Resets
 	------	*/
@@ -24,7 +25,8 @@ footer, header, nav, section, audio, video {
 }
 
 a img {border: 0;}
-html {overflow-y: scroll;}
+
+
 
 /*	Typography presets
 	------------------	*/
@@ -38,9 +40,7 @@ html {overflow-y: scroll;}
 .huge, h1 {
 	font-size: 68px;
 	line-height: 72px;
-	letter-spacing: -3px;
-	font-family: "ff-meta-web-pro-1","ff-meta-web-pro-2",sans-serif;
-	font-weight:bold;
+	letter-spacing: -1px;
 }
 
 .large, h2 {
@@ -59,8 +59,7 @@ html {overflow-y: scroll;}
 }
 
 body {
-	font: 16px/24px;
-	font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2",serif;
+	font: 18px ff-meta-serif-web-pro, Georgia, serif;
 }
 
 .small, small {
@@ -68,17 +67,17 @@ body {
 	line-height: 18px;
 }
 
-h1, p {
-	margin-bottom: .5em;
+p {
+  margin-bottom:.75em;
 }
 
 /* Selection colours (easy to forget) */
 
-::selection 	 	{background: rgb(0,255,0);}
-::-moz-selection 	{background: rgb(0,255,0);}
+::selection 	 	{background: rgb(255,255,158);}
+::-moz-selection 	{background: rgb(255,255,158);}
 img::selection 		{background: transparent;}
 img::-moz-selection	{background: transparent;}
-body {-webkit-tap-highlight-color: rgb(0,255,0);}
+body {-webkit-tap-highlight-color: rgb(255,255,158);}
 
 
 
@@ -91,23 +90,15 @@ cols    1     2      3      4      5      6      7      8      9      10
 px      68    160    252    344    436    528    620    712    804    896    */
 
 body {
-	background: #333;
-	color: #fff;
-	-webkit-font-smoothing: antialiased;
-	-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
-	padding: 72px 48px 84px;
-}
-
-article {
 	width: 436px;
 	padding: 72px 48px 84px;
-	visibility: hidden;
-	background:rgba(0,0,0,.5);
-	text-shadow:1px 1px 0 #000000;
-}
-
-.no-rgba article{
-	background: #333;
+	background: rgb(232,232,232);
+	color: rgb(255,255,255);
+	-webkit-text-shadow: 0 1px 3px #333;
+	   -moz-text-shadow: 0 1px 3px #333;
+	     -o-text-shadow: 0 1px 3px #333;
+	        text-shadow: 0 1px 3px #333;
+	-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
 }
 
 .wf-active article {
@@ -115,45 +106,27 @@ article {
 }
 
 a {
-	font-weight:bold;
-	text-decoration:none;
-	color:#fff;
-	border-bottom:2px solid rgba(255,255,255,.3);
-	-webkit-transition: all .33s ease;
-	-moz-transition: all .33s ease;
-	-o-transition: all .33s ease;
-	transition: all .33s ease;
+  color: rgb(255,255,255);
+  font-weight:bold;
+  text-decoration:none;
 }
 
 a:hover {
-	border-bottom:2px solid rgba(255,255,255,.6);
+  
 }
 
-section ul {
-	list-style-type:none;
+ul li {
+  list-style-type:none;
+  float:left;
+  margin:.2em .5em 0 0;
 }
 
-section ul li {
-	float:left;
+li img {
+  opacity:.5;
 }
 
-section ul li img {
-	opacity:.6;
-	margin:12px 12px 0 0;
-	-webkit-transition: all .33s ease;
-	-moz-transition: all .33s ease;
-	-o-transition: all .33s ease;
-	transition: all .33s ease;
-}
-
-section ul li img:hover {
-	opacity:.9;
-	-webkit-transform: rotate(25deg);
-	-moz-transform: rotate(25deg);
-}
-
-hr {
-	clear:both;
+li img:hover {
+  opacity:1;
 }
 
 /*		Tablet Layout: 768px.
@@ -167,13 +140,12 @@ px      68    160    252    344    436    528    620    712    */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	
 	body {
-		padding: 48px 28px 60px;
-	}
-	
-	article {
+		width: 344px;
 		padding: 48px 28px 60px;
 	}
 }
+
+
 
 /*		Mobile Layout: 320px.
 		Gutters: 24px.
@@ -184,17 +156,29 @@ cols    1     2      3
 px      68    160    252    */
 
 @media only screen and (max-width: 767px) {
-
-	body {
-		padding: 0;
-	}
 	
-	article {
+	body {
 		width: 252px;
 		padding: 48px 34px 60px;
 	}
 	
-	#hellobar-wrapper {
-		visibility: hidden;
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	body {
+		width: 252px;
+		padding: 36px 22px 48px;
 	}
+	
 }
