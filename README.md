@@ -1,5 +1,13 @@
-Readme Alex Baldwin personal site
+# alexbaldw.in
 
-Colophon
-FF Meta Web Pro
-FF Tisa Web Pro
+## Fun Things
+
+* Responsive Design (via Less Framework)
+* HTML5 Boilerplate Awesomeness
+* ASCII Unicorn 
+* IE compatible image Backstretch
+* Tipsy on all title tags
+* Social Vectors
+
+### Colophon
+FF Meta Serif Pro
