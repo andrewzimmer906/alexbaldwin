@@ -125,7 +125,7 @@ section, footer {
 
 section#main_screen {
 	width: 936px;
-	padding: 0px 50px 0px 10px;
+	padding: 0px 50px 0px 100px;
 }
 
 section#main_screen img {
@@ -143,10 +143,31 @@ section#main_screen h3 {
 	/*-webkit-mask-image: -webkit-gradient(linear, 0% 28%, 0% 100%, from(#fff), to(rgba(0,0,0,0.4)), to(rgba(0,0,0,0.4)));*/
 }
 
+/*Beta Button*/
+div#main_beta_btn {
+	background: url(../images/betaBtn.png);
+	border: none;
+	width: 241px;
+	height:65px;
+	text-indent: -9999px;
+	margin: 15px 88px 0px 0px;
+	cursor: pointer;
+	float: right;
+	display: block;
+}
+
+div#main_beta_btn:hover {
+	background-position: left -66px;
+}
+
+section#main_screen p {
+	padding-right: 50px;
+}
+
 section#features span {
 	float: left;
 	width: 275px;
-	margin: 0 50px 5px 35px;
+	margin: 0 50px 5px 40px;
 }
 
 section#features span {

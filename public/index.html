@@ -44,10 +44,11 @@
 		
 		<section id="main_screen">
 			<img src="images/screens/iphone4Image.png" alt="iPhone with clovers" />
-
+			
+			<div id="main_beta_btn">Try our beta - Sign up for Early Access</div>
 			<h3>Every App needs a Website</h3>
+			
 			<p>Creating an app is hard. Why should marketing it be hard too? At App Greenhouse we want to help you take that first step towards selling your app, creating a kickass website. We work with incredible designers and developers to help you create beautiful, highly functional websites with literally the click of a button.<br/><br/>We are still working on our beta product, but sign up below and we'll give you a shout once it's ready for prime time.</p>
-
 		</section>
 			
 		<section id="features">
@@ -335,6 +336,10 @@
 		  //When the sign up button is clicked, scroll to the form
 		  $('#btn_beta').click(function(event){
 		  	 $('html, body').animate({ scrollTop: $('#banner').offset().top }, 'slow');
+		  });
+		  
+		  $('#main_beta_btn').click(function(event) {
+		  	$('html, body').animate({ scrollTop: $('#banner').offset().top }, 'slow');
 		  });
 		  
 		  // This is a functions that scrolls to #{blah}link
