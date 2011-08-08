@@ -1,0 +1,295 @@
+html {
+	margin: 0;
+	background: #000 url(../images/concrete_wall.png);
+}
+
+body {
+	margin: 0;
+	min-width: 1039px;
+	font-size: 14px;
+	font-family: "PT Sans", Helvetica, sans-serif;
+	color: #aab2bb;
+	//background: transparent url(../images/bg.jpg) no-repeat center top;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* GLOBAL STYLES */
+
+header, footer, section, nav {
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	transition: color .25s ease-out;
+	-webkit-transition: color .25s ease-out;
+	-moz-transition: color .25s ease-out;
+}
+
+a:hover {
+	color: #aab2bb;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+/* HEADER STYLES */
+
+header {
+	height: 400px;
+	margin: 0px;
+	width: 100%;
+}
+
+header nav {
+	background: url(../images/htmlBG.png) repeat-x left top;
+	width: 100%;
+	height: 112px;
+}
+
+header nav ul {
+	margin: 0px auto;
+	width: 986px;
+}
+
+header h1, header h2 {
+	text-indent: -9999px;
+}
+
+header div#logo {
+	display: block;
+	background: url(../images/topIcon.png) no-repeat; center top;
+	height: 347px;
+	width: 888px;
+	margin: -120px auto 0px auto;
+}
+
+header nav li {
+	float: left;
+}
+
+header nav a {
+	float: left;
+	height: 25px;
+	width: 29px;
+	text-indent: -99999px;
+	margin: 41px 70px 0 10px;
+	background: transparent url(../images/btns.png) no-repeat left bottom;
+	opacity: 0.65;
+}
+
+li#btn_facebook a {
+	width: 15px;
+	height: 30px;
+	background-position: -114px bottom;
+	margin: 36px 20px 0px 20px;
+}
+
+li#btn_twitter a {
+	width: 34px;
+	background-position: right bottom;
+}
+
+li#btn_beta {
+	float: right;
+	cursor: pointer;
+	width: 241px;
+	height: 69px;
+	text-indent: -99999px;
+	margin: 21px 10px 0 10px;
+	background: transparent url(../images/btns.png) no-repeat left bottom;
+	background-position: left top;
+	opacity: 0.65;
+}
+
+li#btn_beta:hover {
+	opacity: 1;
+}
+
+header nav a:hover {
+	opacity: 1;
+}
+
+/* MAIN CONTENT STYLES */
+
+section, footer {
+	clear: left;
+	width: 986px;
+	margin: 0 auto;
+}
+
+section#main_screen {
+	width: 936px;
+	padding: 0px 50px 0px 10px;
+}
+
+section#main_screen img {
+	display: inline;
+	float: left;
+	margin: 0px 70px 50px 0px;
+}
+
+section#main_screen h3 {
+	color: #fff;
+	font-size: 28px;
+	font-style: italic;
+	margin: 0 0 16px 0;
+	padding: 100px 0 0px 0px;
+	/*-webkit-mask-image: -webkit-gradient(linear, 0% 28%, 0% 100%, from(#fff), to(rgba(0,0,0,0.4)), to(rgba(0,0,0,0.4)));*/
+}
+
+section#features span {
+	float: left;
+	width: 275px;
+	margin: 0 50px 5px 35px;
+}
+
+section#features span {
+	margin-right: 0;
+}
+
+div#banner {
+	clear: left;
+	display: block;
+	margin: -30px 0 50px -27px;
+	width: 1068px;
+	height: 429px;
+	background: url(../images/sign-up-banner.png) no-repeat center top;
+}
+
+div#banner h3 {
+	text-indent: -9999px;
+}
+
+/* Mail Chimp Form */
+#mc_embed_signup {
+	margin: 120px 0px 50px -27px;
+	display: block;
+	width: 1039px;
+	color:  #121212;
+	border: none;
+	
+	font-size: 20px;
+	font-style: italic;
+	font-family: "PT Sans", Helvetica, sans-serif;
+	font-weight: bold;
+	
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#mc-embedded-subscribe-form {
+	width: 1039px;
+	margin: 0px 40px;
+}
+
+#mc-embedded-subscribe-form fieldset {
+	border: none;
+}
+
+/*Labels*/
+div.mc-field-group label {
+	display: block;
+	margin: 15px 0 0 0;
+}
+
+div.indicate-required {	
+	float: right;
+	font-size: 12px;
+	padding: 5px 300px 0px 0px;
+}
+
+/*Inputs*/
+div.mc-field-group input {
+	width: 700px;
+	height: 25px;
+	font-size: 20px;
+	color:  #666;
+}
+ //Checkbox group
+div.input-group {
+	width: 500px;
+	height: 25px;
+	font-size: 20px;
+	color:  #666;
+}
+
+div.input-group ul {
+	width: 700px;
+}
+
+div.input-group ul li {
+	width: 200px;
+	height: 30px;
+	display: inline;
+	float: left;
+	margin: -7px 0px 7px 0px;
+}
+
+div.input-group input {
+	display: inline;
+	float: left;
+	width: 25px;
+	margin: 13px 0px;
+}
+
+/*Submit Button*/
+div input.btn {
+	float: right;
+	background: url(../images/signUpBtn.png);
+	border: none;
+	width: 237px;
+	height:65px;
+	text-indent: -9999px;
+	margin: -38px 27px 10px 0px;
+	cursor: pointer;
+}
+
+div input.btn:hover {
+	background-position: left -66px;
+}
+
+a#mc_embed_close {
+	display: none;
+}
+
+/*End Mail Chimp Form*/
+
+section#features h3 {
+	color: #fff;
+	font-size: 28px;
+	font-style: italic;
+	margin: 0 0 16px 0;
+	-webkit-mask-image: -webkit-gradient(linear, 0% 28%, 0% 100%, from(#fff), to(rgba(0,0,0,0.4)), to(rgba(0,0,0,0.4)));
+}
+
+/* FOOTER STYLES */
+
+footer {
+	background: #000;
+	padding: 25px 0 20px 0;
+	width: 100%;
+}
+
+footer div{
+	margin: 0;
+	width:  986px;
+	margin: 0px auto;
+}
+
+footer span.first {
+	margin-right: 120px;
+}
+
+footer span.middle a {
+	margin: 0 10px;
+}
+
+footer span.last {
+	float: right;
+}

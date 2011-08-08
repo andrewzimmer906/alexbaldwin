@@ -3,13 +3,13 @@
 
 
 /* TEAM */
-  <your title>: <your name>
-  Site: 
-  Twitter: 
-  Location: 
+  CEO: Andrew
+  Site: http://theappgreenhouse.com
+  Twitter: @app_greenhouse
+  Location: San Francisco
 
 /* THANKS */
-  Names (& URL): 
+  Names (& URL): Alex Baldwin alexbaldw.in
 
 /* SITE */
   Standards: HTML5, CSS3
