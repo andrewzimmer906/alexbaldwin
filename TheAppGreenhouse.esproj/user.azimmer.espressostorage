@@ -32,25 +32,7 @@
 		<array>
 			<dict>
 				<key>DocumentURL</key>
-				<string>file://localhost/Users/azimmer/Documents/Green%20Thumb/BlueSteel%20Website/Code/css/global.css</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
-			</dict>
-			<dict>
-				<key>DocumentURL</key>
-				<string>file://localhost/Users/azimmer/Documents/Green%20Thumb/BlueSteel%20Website/Code/index.html</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
-			</dict>
-			<dict>
-				<key>DocumentURL</key>
-				<string>file://localhost/Users/azimmer/Documents/Green%20Thumb/BlueSteel%20Website/Code/js/jquery.js</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
-			</dict>
-			<dict>
-				<key>DocumentURL</key>
-				<string>file://localhost/Users/azimmer/Documents/Green%20Thumb/smoketest/alexbaldwin/config.ru</string>
+				<string>file://localhost/Users/azimmer/Documents/Green%20Thumb/smoketest/alexbaldwin/public/index.html</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>
