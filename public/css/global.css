@@ -73,6 +73,14 @@ header nav li {
 	float: left;
 }
 
+header nav li#tweet {
+	margin: 45px 0px 0px 0px;
+}
+
+header nav li#facebookShare {
+	margin: 45px 0px 0px 0px;
+}
+
 header nav a {
 	float: left;
 	height: 25px;
@@ -292,13 +300,13 @@ section#features h3 {
 /* FOOTER STYLES */
 
 footer {
+	margin: 50px 0px 0px 0px;
 	background: #000;
 	padding: 25px 0 20px 0;
 	width: 100%;
 }
 
 footer div{
-	margin: 0;
 	width:  986px;
 	margin: 0px auto;
 }

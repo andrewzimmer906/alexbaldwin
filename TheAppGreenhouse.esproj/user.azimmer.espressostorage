@@ -7,13 +7,13 @@
 	<key>ESProjectWindowState</key>
 	<dict>
 		<key>ContentSize</key>
-		<string>{1061, 533}</string>
+		<string>{1200, 617}</string>
 		<key>ProjectURL</key>
 		<string>file://localhost/Users/azimmer/Documents/Green%20Thumb/smoketest/alexbaldwin/TheAppGreenhouse.esproj/</string>
 		<key>StateType</key>
 		<string>ProjectWindow</string>
 		<key>TopLeftPoint</key>
-		<string>{31, 748}</string>
+		<string>{12, 734}</string>
 	</dict>
 	<key>com.macrabbit.Espresso.FileManager.DisclosureCollapsed</key>
 	<false/>
@@ -21,7 +21,8 @@
 	<dict>
 		<key>ExpandedURLs</key>
 		<array>
-			<string>file://localhost/Users/azimmer/Documents/Green%20Thumb/smoketest/alexbaldwin/public</string>
+			<string>file://localhost/Users/azimmer/Documents/Green%20Thumb/smoketest/alexbaldwin/public/css</string>
+			<string>file://localhost/Users/azimmer/Documents/Green%20Thumb/smoketest/alexbaldwin/public/images</string>
 		</array>
 	</dict>
 	<key>com.macrabbit.Espresso.Publisher.DisclosureCollapsed</key>
