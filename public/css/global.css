@@ -212,6 +212,10 @@ div#banner h3 {
 	border-radius: 5px;
 }
 
+#mc_embed_signup legend {
+	display: none;
+}
+
 #mc-embedded-subscribe-form {
 	width: 1039px;
 	margin: 0px 40px;
@@ -240,6 +244,7 @@ div.mc-field-group input {
 	font-size: 20px;
 	color:  #666;
 }
+
  //Checkbox group
 div.input-group {
 	width: 500px;
@@ -285,6 +290,27 @@ div input.btn:hover {
 
 a#mc_embed_close {
 	display: none;
+}
+
+//Responses
+.mce_inline_error {
+    color: #FF0000;
+    float: left;
+    font-size: 12px;
+    margin: -35px 0 0 120px;
+    width: 200px;
+}
+
+div#mce-success-response {
+	float: left;
+	font-size: 12px;
+	margin: -35px 0 0 120px;
+	width: 200px;	
+}
+
+div#mce-error-response {
+	font-size: 12px;
+	color: #f00;
 }
 
 /*End Mail Chimp Form*/
